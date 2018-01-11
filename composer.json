@@ -1,0 +1,17 @@
+{
+    "name": "unitiweb/dbc-utility",
+    "license": "proprietary",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        },
+        "files": [
+            "src/functions/typeFunctions.php",
+            "src/functions/dbcFunctions.php"
+        ]
+    },
+    "require": {
+        "php": ">=5.5.9"
+    }
+}
